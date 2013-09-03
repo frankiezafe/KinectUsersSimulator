@@ -1,0 +1,8 @@
+*~
+
+# Do not track temporary blender files 
+*.blend1
+*.blend2
+
+# Do not track test renders
+exports/*

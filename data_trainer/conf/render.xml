@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eyetreasure_trainer version="0">
+
+<world>
+	<camera type="default" objectname="kinect">
+		<rotation x="72" y="0" z="0"/>
+		<translation x="0" y="-6" z="2"/>
+	</camera>
+	<statics>
+		<static name="lamp"/>
+		<static name="floor"/>
+	</statics>
+</world>
+<renderblocks outputdir="my export folder" mist_min="0" mist_max="30">
+	<renderblock name="my 1th render block">
+		<camera_offset>
+			<rotation x="0" y="0" z="0"/>
+			<translation x="0" y="0" z="0"/>
+		</camera_offset>
+		<models>
+			<model name="Cube">
+				<scale x="1" y="1" z="1"/>
+				<rotation x="30" y="-15" z="3"/>
+				<translation x="0" y="0" z="0"/>
+				<bvh path="0"/>
+			</model>
+		</models>
+	</renderblock>
+	<renderblock name="my 2d render block">
+		<camera_offset>
+			<rotation x="0" y="0" z="0"/>
+			<translation x="0" y="0" z="0"/>
+		</camera_offset>
+		<models>
+			<model name="Cube.001">
+				<scale x="1" y="1" z="1"/>
+				<rotation x="30" y="-15" z="45"/>
+				<translation x="0" y="0" z="0"/>
+				<bvh path="0"/>
+			</model>
+		</models>
+	</renderblock>
+</renderblocks>
+</eyetreasure_trainer>
